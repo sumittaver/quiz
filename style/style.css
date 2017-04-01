@@ -1,0 +1,88 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+    text-decoration: none;
+    font-size: 24px; 
+    font-weight: 300;
+    }
+a{
+	text-decoration:none;cursor:pointer;
+	}
+a:focus{
+	text-decoration:none;cursor:pointer;
+	}
+a:hover{
+	text-decoration:none;cursor:pointer;
+	}
+
+ul{
+	list-style-type: none;
+	}
+
+
+.container{
+    vertical-align: bottom;
+    margin: 20px;padding: 20px;
+    background-color: transparent;
+}
+.container_home{
+    vertical-align: bottom;
+    margin: 20px;padding: 20px;
+    background-color: #e1e1e1;
+}
+.green{
+    background-color: #009090 !important;
+}
+.green-border{
+    border: 2px solid #009090;
+}
+.whitesmoke{
+    color:whitesmoke;
+}
+.whitesmoke_bg{
+    background-color:  whitesmoke;
+}
+.margin-10{
+    margin-bottom: 10px;
+}
+.round-b-r{
+    border-bottom-right-radius: 5px !important;
+}
+.round-t-r{
+    border-top-right-radius: 5px !important;
+}
+.border-none{
+    border: none;
+}
+.background-none{
+    background: none;
+}
+/*Loader start here*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+    opacity: 0.9;
+	background: url('../images/Preloader.gif') center no-repeat #fff;
+}
+.se-pre-con:after {
+    content: "Site is Loading";
+}
+.signature {
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    text-align: center;
+}
